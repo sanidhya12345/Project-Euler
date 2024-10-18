@@ -6,9 +6,9 @@ public class SumSquareDifference {
         int test=sc.nextInt();
         while(test--!=0){
             long n=sc.nextLong();
-            long firstHalf= (n*(n+1))/2;//(n*(n+1))/2
-            long secondHalf=((3*n*n)-n-2)/6;
-            System.out.println(firstHalf*secondHalf);                 
+            long firstHalf= (n*(n+1));//(n*(n+1))/2
+            long secondHalf=((3*n*n)-n-2);
+            System.out.println((firstHalf*secondHalf)/12);                 
         }
         sc.close();
     }
